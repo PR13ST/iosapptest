@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01FE1CE6CF8DB19F89C381E4 /* Pods_HelloWorld2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E438A63B09EE9A43F579D33 /* Pods_HelloWorld2.framework */; };
 		0A5ADE92229B1D2D00ACE174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ADE91229B1D2D00ACE174 /* AppDelegate.swift */; };
 		0A5ADE94229B1D2D00ACE174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ADE93229B1D2D00ACE174 /* ViewController.swift */; };
 		0A5ADE97229B1D2D00ACE174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5ADE95229B1D2D00ACE174 /* Main.storyboard */; };
@@ -15,8 +14,9 @@
 		0A5ADE9C229B1D2D00ACE174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5ADE9A229B1D2D00ACE174 /* LaunchScreen.storyboard */; };
 		0A5ADEA7229B1D2E00ACE174 /* HelloWorld2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ADEA6229B1D2E00ACE174 /* HelloWorld2Tests.swift */; };
 		0A5ADEB2229B1D2E00ACE174 /* HelloWorld2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ADEB1229B1D2E00ACE174 /* HelloWorld2UITests.swift */; };
-		331372B3EE89DEB9A3B49FB0 /* Pods_HelloWorld2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C0AB1838A5A62BF01A2EDE /* Pods_HelloWorld2Tests.framework */; };
-		3FE80FE8505258F437C1FFD6 /* Pods_HelloWorld2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B94963210E25BC6CD3B6BE /* Pods_HelloWorld2UITests.framework */; };
+		481D9D9F83A5577EF432FCC8 /* Pods_HelloWorld2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09BB17857D20BD4F43ED8E8 /* Pods_HelloWorld2UITests.framework */; };
+		A31D20DCB6D6F1F6FB7D89A3 /* Pods_HelloWorld2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736ED50737677E30DC4AC7E1 /* Pods_HelloWorld2Tests.framework */; };
+		FC90F0291F54F21E57065077 /* Pods_HelloWorld2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604A5A6D7208BC756F5969FA /* Pods_HelloWorld2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,15 +50,15 @@
 		0A5ADEAD229B1D2E00ACE174 /* HelloWorld2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5ADEB1229B1D2E00ACE174 /* HelloWorld2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld2UITests.swift; sourceTree = "<group>"; };
 		0A5ADEB3229B1D2E00ACE174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21AB7ADFD498191425A36558 /* Pods-HelloWorld2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2UITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld2UITests/Pods-HelloWorld2UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E438A63B09EE9A43F579D33 /* Pods_HelloWorld2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B8840486AB24280621B4236 /* Pods-HelloWorld2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld2/Pods-HelloWorld2.debug.xcconfig"; sourceTree = "<group>"; };
-		7E52F4E1743370C040E1B07B /* Pods-HelloWorld2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2UITests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld2UITests/Pods-HelloWorld2UITests.release.xcconfig"; sourceTree = "<group>"; };
-		93C0AB1838A5A62BF01A2EDE /* Pods_HelloWorld2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9962675F260E1A2469A36D7D /* Pods-HelloWorld2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2Tests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld2Tests/Pods-HelloWorld2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9014C61750C7E7C2BC77E69 /* Pods-HelloWorld2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld2/Pods-HelloWorld2.release.xcconfig"; sourceTree = "<group>"; };
-		D6B94963210E25BC6CD3B6BE /* Pods_HelloWorld2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54B34B951A8677C2768BA30 /* Pods-HelloWorld2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2Tests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld2Tests/Pods-HelloWorld2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28C5B94877001D9DF6B41232 /* Pods-HelloWorld2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2UITests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld2UITests/Pods-HelloWorld2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4083AA59DFBC14596A5BEB45 /* Pods-HelloWorld2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld2/Pods-HelloWorld2.debug.xcconfig"; sourceTree = "<group>"; };
+		45B6808656CD899B0E3A7F7A /* Pods-HelloWorld2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld2/Pods-HelloWorld2.release.xcconfig"; sourceTree = "<group>"; };
+		604A5A6D7208BC756F5969FA /* Pods_HelloWorld2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		736ED50737677E30DC4AC7E1 /* Pods_HelloWorld2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA9D6F9B9DA8D229133CD10 /* Pods-HelloWorld2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2UITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld2UITests/Pods-HelloWorld2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF667DB7FC6C6F1B78AAA210 /* Pods-HelloWorld2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2Tests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld2Tests/Pods-HelloWorld2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B09BB17857D20BD4F43ED8E8 /* Pods_HelloWorld2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FC003BCD0EBDCF3BEBD65E /* Pods-HelloWorld2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld2Tests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld2Tests/Pods-HelloWorld2Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01FE1CE6CF8DB19F89C381E4 /* Pods_HelloWorld2.framework in Frameworks */,
+				FC90F0291F54F21E57065077 /* Pods_HelloWorld2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331372B3EE89DEB9A3B49FB0 /* Pods_HelloWorld2Tests.framework in Frameworks */,
+				A31D20DCB6D6F1F6FB7D89A3 /* Pods_HelloWorld2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE80FE8505258F437C1FFD6 /* Pods_HelloWorld2UITests.framework in Frameworks */,
+				481D9D9F83A5577EF432FCC8 /* Pods_HelloWorld2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +145,9 @@
 		2984A23DB6E87D3E10009630 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2E438A63B09EE9A43F579D33 /* Pods_HelloWorld2.framework */,
-				93C0AB1838A5A62BF01A2EDE /* Pods_HelloWorld2Tests.framework */,
-				D6B94963210E25BC6CD3B6BE /* Pods_HelloWorld2UITests.framework */,
+				604A5A6D7208BC756F5969FA /* Pods_HelloWorld2.framework */,
+				736ED50737677E30DC4AC7E1 /* Pods_HelloWorld2Tests.framework */,
+				B09BB17857D20BD4F43ED8E8 /* Pods_HelloWorld2UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 		B5E4764E39571F2486CAA782 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B8840486AB24280621B4236 /* Pods-HelloWorld2.debug.xcconfig */,
-				B9014C61750C7E7C2BC77E69 /* Pods-HelloWorld2.release.xcconfig */,
-				F54B34B951A8677C2768BA30 /* Pods-HelloWorld2Tests.debug.xcconfig */,
-				9962675F260E1A2469A36D7D /* Pods-HelloWorld2Tests.release.xcconfig */,
-				21AB7ADFD498191425A36558 /* Pods-HelloWorld2UITests.debug.xcconfig */,
-				7E52F4E1743370C040E1B07B /* Pods-HelloWorld2UITests.release.xcconfig */,
+				4083AA59DFBC14596A5BEB45 /* Pods-HelloWorld2.debug.xcconfig */,
+				45B6808656CD899B0E3A7F7A /* Pods-HelloWorld2.release.xcconfig */,
+				AF667DB7FC6C6F1B78AAA210 /* Pods-HelloWorld2Tests.debug.xcconfig */,
+				E0FC003BCD0EBDCF3BEBD65E /* Pods-HelloWorld2Tests.release.xcconfig */,
+				9AA9D6F9B9DA8D229133CD10 /* Pods-HelloWorld2UITests.debug.xcconfig */,
+				28C5B94877001D9DF6B41232 /* Pods-HelloWorld2UITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -560,7 +560,7 @@
 		};
 		0A5ADEB7229B1D2E00ACE174 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B8840486AB24280621B4236 /* Pods-HelloWorld2.debug.xcconfig */;
+			baseConfigurationReference = 4083AA59DFBC14596A5BEB45 /* Pods-HelloWorld2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -581,7 +581,7 @@
 		};
 		0A5ADEB8229B1D2E00ACE174 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9014C61750C7E7C2BC77E69 /* Pods-HelloWorld2.release.xcconfig */;
+			baseConfigurationReference = 45B6808656CD899B0E3A7F7A /* Pods-HelloWorld2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -602,7 +602,7 @@
 		};
 		0A5ADEBA229B1D2E00ACE174 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F54B34B951A8677C2768BA30 /* Pods-HelloWorld2Tests.debug.xcconfig */;
+			baseConfigurationReference = AF667DB7FC6C6F1B78AAA210 /* Pods-HelloWorld2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,7 +624,7 @@
 		};
 		0A5ADEBB229B1D2E00ACE174 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9962675F260E1A2469A36D7D /* Pods-HelloWorld2Tests.release.xcconfig */;
+			baseConfigurationReference = E0FC003BCD0EBDCF3BEBD65E /* Pods-HelloWorld2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,7 +646,7 @@
 		};
 		0A5ADEBD229B1D2E00ACE174 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21AB7ADFD498191425A36558 /* Pods-HelloWorld2UITests.debug.xcconfig */;
+			baseConfigurationReference = 9AA9D6F9B9DA8D229133CD10 /* Pods-HelloWorld2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,7 +667,7 @@
 		};
 		0A5ADEBE229B1D2E00ACE174 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E52F4E1743370C040E1B07B /* Pods-HelloWorld2UITests.release.xcconfig */;
+			baseConfigurationReference = 28C5B94877001D9DF6B41232 /* Pods-HelloWorld2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

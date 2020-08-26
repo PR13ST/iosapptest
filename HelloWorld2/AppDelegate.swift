@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
-import AppCenterDistribute
+//import AppCenter
+//import AppCenterAnalytics
+//import AppCenterCrashes
+//import AppCenterDistribute
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,11 +26,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //    MSCrashes.self
         //    ])
         //#else
-            MSAppCenter.start("ae173629-37f3-47f2-a748-0340e7f28020", withServices:[
-            MSAnalytics.self,
-            MSCrashes.self,
-            MSDistribute.self
-            ])
+     //       MSAppCenter.start("ae173629-37f3-47f2-a748-0340e7f28020", withServices:[
+          //  MSAnalytics.self,
+           // MSCrashes.self,
+           // MSDistribute.self
+         //   ])
         //#endif
         
         return true
