@@ -16,7 +16,6 @@
 		0A5ADEB2229B1D2E00ACE174 /* HelloWorld2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ADEB1229B1D2E00ACE174 /* HelloWorld2UITests.swift */; };
 		481D9D9F83A5577EF432FCC8 /* Pods_HelloWorld2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09BB17857D20BD4F43ED8E8 /* Pods_HelloWorld2UITests.framework */; };
 		A31D20DCB6D6F1F6FB7D89A3 /* Pods_HelloWorld2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736ED50737677E30DC4AC7E1 /* Pods_HelloWorld2Tests.framework */; };
-		FC90F0291F54F21E57065077 /* Pods_HelloWorld2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604A5A6D7208BC756F5969FA /* Pods_HelloWorld2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC90F0291F54F21E57065077 /* Pods_HelloWorld2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
